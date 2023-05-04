@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+  padding:0;
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+
+}
+body{
+  background-color: #ddd;
+}
+
+.gameTitle{
+  font-size: 3.5em;
+  text-align: center;
+  padding-top:30px;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 17em;
+  gap: 10em;
+  
+}
+
+button{
+  height: 100%;
+  width: 100%;
+  font-size:6em;
+  background:none;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+.playerChoice{
+
+  padding-top: 0.9em;
+  font-size: 20px;
+}
+
+.computerChoice{
+  padding-top: 0.9em;
+  font-size: 20px;
+}
+
+.resultText{
+  text-align: center;
+  padding: 1em;
+}
