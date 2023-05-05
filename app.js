@@ -134,7 +134,7 @@ function showResults(playerDecition){  /* checks the result */
      computerScore = 0
      gameRound = 0
     clearButtons()
-    clearcButtons
+    clearcButtons()
     clearRButtons()
     location.reload();
   }
