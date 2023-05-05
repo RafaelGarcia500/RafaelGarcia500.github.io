@@ -21,7 +21,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 17em;
+  margin-top: 10em;
   gap: 10em;
   
 }
@@ -52,3 +52,4 @@ button{
   text-align: center;
   padding: 1em;
 }
+
